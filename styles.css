@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Dela Gothic One', cursive;
+  font-family: 'Oswald', sans-serif;
+  background-color: rgb(48, 72, 143);
+}
+
+.project-container {
+  margin: auto;
+  min-height: 500px;
+  width: 700px;
+  background-color: rgb(49, 91, 214);
+  margin-top: 40px;
+  border-radius: 100px;
+  position: relative;
+}
+
+.input-container {
+  border-radius: 10px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.input {
+
+  font-family: 'Dela Gothic One', cursive;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.5rem;
+  padding: 15px;
+  margin-right: 10px;
+  width: 400px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+
+}
+
+.input:focus-within,
+.input:hover {
+      background-color: rgba(255, 255, 255, 0.783);
+}
+
+.button {
+  padding: 20px;
+  border: none;
+  color: white;
+  border-radius: 20px;
+  background-color: blue;
+  cursor: pointer;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.5rem;
+  margin-right: 10px;
+}
+
+.button:hover {
+  background-color: rgb(26, 26, 216);
+}
+
+.list {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.5rem;
+  
+}
+
+.list-container {
+  margin-bottom: 20px;
+}
+
+.item {
+    border-bottom: 3px solid gray;
+    list-style: none;
+    padding: 15px;
+    cursor: pointer;
+    color: white;
+}
+
+.item:hover {
+  color: red;
+}
+
+.alert-paragraph {
+  font-size: 1.5rem;
+  color: red;
+  text-align: center;
+}
+
+.credit {
+  font-size: 1rem;
+  position: absolute;
+  left: 200px;
+  top: 0;
+  color: white;
+}
+
+span {
+  color: rgb(193, 193, 253);
+  font-size: 1.5rem;
+  margin-left: 5px;
+  text-decoration: underline;
+}
+
+/* @media (max-width: 600px) {
+  .project-container {
+
+  }
+} */
